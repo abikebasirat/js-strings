@@ -74,3 +74,46 @@ const ending = man.endsWith('javascript')
 console.log(starting)
 console.log(ending)
 console.log(check)
+
+
+// geting a substring
+
+
+// SLICE METHODS
+
+const exampleString = "hotdog"
+console.log(exampleString.slice(0,3))
+console.log(exampleString.slice(3))
+console.log(exampleString.slice(-1))
+
+
+
+// SPLIT METHODS
+const sentence1 = "The quick brown fox jumped over the lazy dog";
+console.log(sentence1.split(' '))
+
+
+const shuldName = "Nofisat and Zainab";
+const split1 = shuldName.split(' ')
+console.log(split1)
+
+
+
+
+// reverse() and join() methods
+const reverse = split1.reverse()
+console.log(reverse);
+
+const join1 = reverse.join('-');
+console.log(join1)
+
+
+// repeat method
+const dogSsys = "woof "
+console.log(dogSsys.repeat(3))
+
+
+
+// TRIM() METHOD
+const trim = "  @example.com  "
+console.log(trim.trim())
